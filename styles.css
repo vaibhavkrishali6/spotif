@@ -36,12 +36,13 @@ line-height: normal;
 }
 .navbar-items:hover{
     transform: translateY(-20px);
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
     color: aliceblue;
 }
 .image{
-    position: absolute;
-    left: 3vw;
+    position:absolute;
+ 
+   top:0;
 }
 
 
@@ -68,6 +69,7 @@ line-height: normal;
 .segment{
  display: flex;
 top: 3vh;
+z-index: 2;
 }
 .spotifycl{
     position:absolute;
